@@ -1,0 +1,23 @@
+1. SELECT * FROM tanulok
+
+2. SELECT nev FROM tanulok
+
+3. SELECT nev, osztaly FROM tanulok
+
+4. SELECT nev, atlag, hianyzas FROM tanulok
+
+5. SELECT id, nev, varos, email FROM tanulok
+
+6. SELECT nev FROM tanulok WHERE osztaly = "10.A"
+
+7. SELECT * FROM tanulok WHERE atlag >= 4.0
+
+8. SELECT DISTINCT varos FROM tanulok 
+
+9. SELECT nev, atlag FROM tanulok ORDER BY atlag DESC 
+
+10. SELECT nev, atlag FROM tanulok WHERE varos = "Budapest" ORDER BY atlag DESC 
+
+11. SELECT * FROM tanulok WHERE eletkor >= 17 &&	 atlag >= 4.0
+
+12. 
